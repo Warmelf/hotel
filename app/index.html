@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уютный отель</title>
+    <link rel="shortcut icon" href="images/dest/icon-hotel.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/app.min.css">
+  </head>
+  <body>
+    <main>
+      <div class="bg-container"></div>
+      <div class="content-wrapper">
+        <section class="content">
+          <h1 class="content__title">Номера и цены</h1>
+          <ul class="content__cards-container">
+            <li class="content__card card">
+              <picture class="card__image">
+                <source
+                  media="(max-width: 768px)"
+                  width="288"
+                  height="347"
+                  srcset="images/dest/small/representative-lux-small.jpg"
+                >
+                <source
+                  media="(max-width: 1280px)"
+                  width="336"
+                  height="420"
+                  srcset="images/dest/medium/representative-lux-medium.jpg"
+                >
+                <source width="372" height="372" srcset="images/dest/big/representative-lux-big.jpg">
+                <img
+                  width="372"
+                  height="372"
+                  src="images/dest/big/representative-lux-big.jpg"
+                  alt="Представительский люкс"
+                >
+              </picture>
+              <div class="card__content">
+                <h2 class="card__subtitle card-subtitle">
+                  <a class="card-subtitle__link" href="#">Представительский люкс</a>
+                </h2>
+                <p class="card__description">
+                  Эксклюзивный номер с панорамным видом на центр города Москвы
+                </p>
+                <div class="card__booking">
+                  <p class="card__price">
+                    <span class="card__price-subtitle">Цена за сутки</span>
+                    <br>
+                    <span class="card__price-text">от</span>
+                    <span class="card__price-value">7 900</span>
+                    <span class="card__price-currency">&#8381;</span>
+                  </p>
+                  <button class="card__button">Забронировать</button>
+                </div>
+                <div class="card__reserved card__hidden">
+                  <p>
+                    Номер зарезервирован<br />
+                    Перейти к <a class="card__link" href="#">оплате</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="content__card card card-motivator">
+              <picture class="card__image">
+                <source
+                  media="(max-width: 768px)"
+                  width="288"
+                  height="347"
+                  srcset="images/dest/small/duplex-small.jpg"
+                >
+                <source
+                  media="(max-width: 1280px)"
+                  width="336"
+                  height="420"
+                  srcset="images/dest/medium/duplex-medium.jpg"
+                >
+                <source width="372" height="372" srcset="images/dest/big/duplex-big.jpg">
+                <img width="372" height="372" src="images/dest/big/duplex-big.jpg" alt="Дуплекс">
+              </picture>
+              <p class="card-motivator-title">Гарантия лучшей цены!</p>
+              <div class="card__content">
+                <h2 class="card__subtitle card-subtitle">
+                  <a class="card-subtitle__link" href="#">Дуплекс</a>
+                </h2>
+                <p class="card__description">
+                  Просторный двухкомнатный номер с шикарным видом на парк
+                </p>
+                <div class="card__booking">
+                  <p class="card__price">
+                    <span class="card__price-subtitle">Цена за сутки</span>
+                    <br>
+                    <span class="card__price-text">от</span>
+                    <span class="card__price-value">5 700</span>
+                    <span class="card__price-currency">&#8381;</span>
+                  </p>
+                  <button class="card__button">Забронировать</button>
+                </div>
+                <div class="card__reserved card__hidden">
+                  <p>
+                    Номер зарезервирован<br />
+                    Перейти к <a class="card__link" href="#">оплате</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="content__card card">
+              <picture class="card__image">
+                <source
+                  media="(max-width: 768px)"
+                  width="288"
+                  height="347"
+                  srcset="images/dest/small/business-lux-small.jpg"
+                >
+                <source
+                  media="(max-width: 1280px)"
+                  width="336"
+                  height="420"
+                  srcset="images/dest/medium/business-lux-medium.jpg"
+                >
+                <source width="372" height="372" srcset="images/dest/big/business-lux-big.jpg">
+                <img
+                  width="372"
+                  height="372"
+                  src="images/dest/big/business-lux-big.jpg"
+                  alt="Бизнес-люкс"
+                >
+              </picture>
+              <div class="card__content">
+                <h2 class="card__subtitle card-subtitle">
+                  <a class="card-subtitle__link" href="#">Бизнес-люкс</a>
+                </h2>
+                <p class="card__description">
+                  Трёхкомнатный номер с панорамным видом на Москва-реку
+                </p>
+                <div class="card__booking">
+                  <p class="card__price">
+                    <span class="card__price-subtitle">Цена за сутки</span>
+                    <br>
+                    <span class="card__price-text">от</span>
+                    <span class="card__price-value">4 900</span>
+                    <span class="card__price-currency">&#8381;</span>
+                  </p>
+                  <button class="card__button">Забронировать</button>
+                </div>
+                <div class="card__reserved card__hidden">
+                  <p>
+                    Номер зарезервирован<br />
+                    Перейти к <a class="card__link" href="#">оплате</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
